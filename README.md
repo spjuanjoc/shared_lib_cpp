@@ -25,7 +25,7 @@ How to create a shared library in C++
     
 2. All in one step
 
-    `$ g++ -fPIC -I ./include src/Foo.cpp src/library.cpp -shared -o bin/libshared_lib_cpp.so`
+    `$ g++ -fPIC -I ./include ./src/Foo.cpp ./src/library.cpp -shared -o ./bin/libshared_lib_cpp.so`
 
 3. Foo only in two-steps. 
     * Build object
@@ -73,5 +73,8 @@ How to create a shared library in C++
     $ ./main_static.out
    ````
 
+5. Show dynamically linked libraries
+
+    `$ ldd main.out`
 ---
 See [shared-libraries-linux-gcc](https://www.cprogramming.com/tutorial/shared-libraries-linux-gcc.html)
