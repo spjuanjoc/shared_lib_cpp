@@ -3,7 +3,6 @@
 //
 
 #include "Foo.h"
-#include <iostream>
 
 int main()
 {

@@ -38,7 +38,7 @@
 *cmake-build-*
 /CMakeFiles
 Makefile
-/build
+build
 
 # cmake files
 #*.cmake
@@ -62,3 +62,6 @@ arch.c
 
 # Cmake swap
 /.CMakeLists.txt.swp
+
+# Conan
+.conan/
